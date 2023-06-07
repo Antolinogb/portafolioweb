@@ -1,0 +1,287 @@
+/*Este es el selector universal*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*selecto de clase con la clase cabecera*/
+.cabecera {
+  background-color: rgb(3, 58, 80);
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+
+
+}
+
+
+.menu .lista {
+  display: inline;
+  justify-content: space-between;
+  
+
+
+}
+
+li {
+  font-size: 20px;
+  margin: 20px;
+  display: inline;
+  float: right;flex-direction: row;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*seccion sobre mi */
+.seccion-sobremi {
+  align-items: center;
+
+}
+
+/*selector de clase con cambio de fuente*/
+.h2 {
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 35px;
+}
+
+/* el perfil con sus repectibos valores*/
+.perfil {
+  width: 260px;
+  height: 245px;
+  border-radius: 50%;
+  margin: 0;
+
+  margin: 20px;
+}
+
+.p1 {
+  background-color: rgb(1, 1, 59);
+  width: 99.5%;
+  height: 250px;
+  padding: 20px;
+  color: white;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-left: 5px;
+
+}
+
+main {
+  display: flex;
+  max-width: 1080;
+  min-width: 800px;
+  margin-left: 10px;
+}
+
+.div1 {
+  background-color: rgba(96, 155, 233, 0.904);
+  width: 500px;
+  height: 500px;
+  border-radius: 1rem 0 0 1rem;
+
+
+
+}
+
+.h01 {
+  color: hsla(217, 93%, 16%, 0.842);
+  font-size: 25px;
+  text-align: center;
+  margin: 5px;
+}
+
+
+.diploma {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+
+.div2 {
+  background-color: rgb(137, 139, 8);
+  width: 500px;
+  height: 500px;
+
+}
+
+.tecnico {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+
+}
+
+.div3 {
+  background-color: rgb(241, 134, 179);
+  width: 500px;
+  height: 500px;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.cliente {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+
+}
+
+.texto {
+  color: rgb(247, 235, 235);
+  font-size: 15px;
+}
+
+/*Mas conocimiento especificamente con la herramientas de oficina*/
+.container-fluid {
+  text-align: center;
+  margin: 5px;
+}
+
+.columna1 .parrafocolumna1 {
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Times New Roman';
+  font-style: italic;
+
+}
+
+/*efecto hover*/
+.parrafocolumna1:hover {
+  background-color: rgb(1, 1, 48);
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.word {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.columna1.word:hover {
+  color: rgb(2, 87, 87);
+}
+
+.columna2 .parrafocolumna2 {
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Times New Roman';
+  font-style: italic;
+
+}
+
+/*efecto hover*/
+.parrafocolumna2:hover {
+  background-color: rgb(50, 1, 54);
+  color: rgb(255, 252, 252);
+  font-style: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.excel {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.columna3 .parrafocolumna3 {
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Times New Roman';
+  font-style: italic;
+
+}
+
+/*efecto hover*/
+.parrafocolumna3:hover {
+  background-color: rgb(50, 59, 2);
+  color: rgb(255, 252, 252);
+  font-style: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.powerpoint {
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+ 
+
+/*seccion footer o pie de pagina*/
+.footer .pieDepagina {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(247, 233, 233);
+  margin: 10px;
+ 
+}
+
+/*redesociales*/
+.redesociales {
+  width: 25px;
+  height: 20px;
+  float: right;
+  margin: 10px;
+  border-radius: 50%;
+  margin-right: 20px;
+
+}
+
+.pie {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: darkgoldenrod;
+   
+}
+
+/*Un poco de javascript*/
+.javascript{
+  background-color: hsl(333, 90%, 4%);
+  width: 100%;
+  height: 150px;
+  text-align: center;
+align-content:space-between;
+font-family: serif;
+color: white;
+font-size:1rem;
+ 
+ }
+ #boton{
+  background-color: rgb(35, 2, 66);
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: rgb(245, 247, 252);
+ }
